@@ -26,7 +26,7 @@ dependencies {
     implementation("androidx.room:room-ktx:2.6.1")
     ksp("androidx.room:room-compiler:2.6.1")
     implementation("com.tom-roush:pdfbox-android:2.0.27.0")
-    implementation("cz.adaptive:tesseract4android:4.7.0")
+    implementation 'cz.adaptech.tesseract4android:tesseract4android:4.7.0'
     testImplementation("org.json:json:20240303")
     testImplementation("junit:junit:4.13.2")
 }
